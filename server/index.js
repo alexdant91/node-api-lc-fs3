@@ -8,6 +8,8 @@ const helmet = require('helmet');
 
 const { SERVER_PORT } = process.env;
 
+const db = require('./db');
+
 app.use(cors());
 app.use(helmet());
 
@@ -34,3 +36,5 @@ app.use('/auth', authRouter);
 app.listen(SERVER_PORT, () => {
   console.log(`[SERVER]: Up and running on ${SERVER_PORT} port...`);
 });
+
+db.connect();
