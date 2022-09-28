@@ -2,7 +2,8 @@
 
 ## TODO
 
-- [ ] Sistema di registrazione utente
+- [X] Sistema di registrazione utente
+- [X] Sistema di login utente via token
 - [ ] Sistema di autorizzazione per le chiamate
 - [ ] Sistema di update per i dati utente
 - [ ] Sistema di delete dell'account
