@@ -7,4 +7,10 @@ const app = express.Router();
  */
 app.use('/users', require('./routes/users'));
 
+/**
+ * @path /api/me
+ * @method ALL
+ */
+app.use('/me', require('./routes/me'));
+
 module.exports = app;

@@ -4,11 +4,11 @@
 
 - [X] Sistema di registrazione utente
 - [X] Sistema di login utente via token
-- [ ] Sistema di autorizzazione per le chiamate
-- [ ] Sistema di update per i dati utente
-- [ ] Sistema di delete dell'account
-- [ ] Sistema per ottenere le informazioni dell'utente loggato
-- [ ] Sistema per poter visualizzare l'elenco degli utenti con paginazione e filtri e possibilità di escludere utente da elenco
+- [ ] Sistema di autorizzazione per le chiamate (middleware)
+- [ ] Sistema di update per i dati utente (/api/me)
+- [ ] Sistema di delete dell'account (/api/me)
+- [ ] Sistema per ottenere le informazioni dell'utente loggato (/api/me)
+- [ ] Sistema per poter visualizzare l'elenco degli utenti con paginazione e filtri e possibilità di escludere utente da elenco (/api/users)
 
 ## Packages
 
