@@ -19,3 +19,5 @@
 - Jsonwebtoken -> Per le autorizzazioni utente
 - Joi -> Per la validazione dei dati in ingresso alle routes
 - Bcryptjs -> Per la criptazione delle password
+- Nodemon -> Per l'hot reload del server -> `Dev`
+- Mongoose-paginate-v2 -> Per la paginazione direttamente dalla chiamata al db
