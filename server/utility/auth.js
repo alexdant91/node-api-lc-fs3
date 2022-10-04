@@ -12,7 +12,7 @@ const genToken = (payload) => {
 
 const verifyToken = (token) => {
   try {
-    return jwt.verify(token, SERVER_PRIVATE_KEY);
+    return jwt.verify(token, SERVER_PRIVATE_KEY); // -> new Error() || payload -> { _id: user._id, email: user.email }
   } catch (err) {
     throw err;
   }

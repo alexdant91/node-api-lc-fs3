@@ -13,4 +13,10 @@ app.use('/users', require('./routes/users'));
  */
 app.use('/me', require('./routes/me'));
 
+/**
+ * @path /api/skills
+ * @method ALL
+ */
+app.use('/skills', require('./routes/skills'));
+
 module.exports = app;

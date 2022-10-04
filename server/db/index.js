@@ -17,6 +17,10 @@ const disconnect = async () => {
 
 const models = {
   User: require('./models/User'),
+  Skill: require('./models/Skill'),
+  WorkExperience: require('./models/WorkExperience'),
+  Language: require('./models/Language'),
+  Role: require('./models/Role'),
 }
 
 module.exports = {
