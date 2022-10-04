@@ -45,7 +45,7 @@ const saveProfileImage = (profile_image = { content: "", file_name: "" }, user_i
   try {
     const content = Buffer.from(profile_image.content, 'base64').toString('ascii');
     const file_name = profile_image.file_name;
-    const ext = file_name.spli('.').at(-1); // mio_file.immagine.profilo.jpg -> ['mio_file', 'immagine', 'profilo', 'jpg'] -> 'jpg'
+    const ext = file_name.split('.').at(-1); // mio_file.immagine.profilo.jpg -> ['mio_file', 'immagine', 'profilo', 'jpg'] -> 'jpg'
 
     if (USER_PROFILE_IMAGE_PERMITTED_EXT.indexOf(ext) === -1) throw new Error("Image format not permitted");
 
